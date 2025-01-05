@@ -1,40 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "flowbite"
+import ProjectFrame from './ProjectFrame';
 
 export default function ProjectCarousel() {
     
+      const items = [1,1,1];
+
       return  (
-        <div id="controls-carousel" className="relative w-full" data-carousel="static">
-          <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div id="controls-carousel" className="relative" data-carousel="static">
+          <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] px-5 overflow-hidden rounded-lg">
             {/* Carousel Items */}
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="/Images/lol.jpg"
-                className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="Carousel 1"
-              />
-            </div>
-            <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-              <img
-                src="/Images/lol.jpg"
-                className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="Carousel 2"
-              />
-            </div>
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="Images/lol.jpg"
-                className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="Carousel 3"
-              />
-            </div>
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="/Images/lol.jpg"
-                className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="Carousel 4"
-              />
-            </div>
+            
+            {items.forEach(element => {
+              <ProjectFrame data={{title:"fkjf", image:"/Images/lol.jpg"}}/>
+            })};
+
           </div>
     
           {/* Previous Button */}

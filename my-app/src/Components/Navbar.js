@@ -1,5 +1,5 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useEffect } from 'react'
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -52,7 +52,7 @@ export default function Navbar() {
       }
 
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-gray-800 sticky trop-0">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> { /* Contient tout panel qui s'affiche en résolution pc */}
             <div className="flex h-16 items-center justify-between">
               <div className="items-center hidden md:flex ml-10 space-x-4"> { /* Contient les éléments de la navbar */}

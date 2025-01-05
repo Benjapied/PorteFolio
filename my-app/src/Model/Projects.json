@@ -1,0 +1,21 @@
+{
+    "projects" :
+    [
+        {
+            "id":1,
+            "name": "Uneven",
+            "date": "2024",
+            "time": "4 mois",
+            "language": "Unity, C#",
+            "equipe": 6,
+            "images" :
+            [
+                "/Images/lol.jpg"
+            ],
+            "description" : "Blablabla le jeu il est cool",
+            "skills":"Etre le goat",
+            "github":"https://github.com/UVictoras/Uneven",
+            "steam": ""
+        }
+    ]
+}
