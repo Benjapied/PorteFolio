@@ -2,21 +2,23 @@ import React from 'react';
 import "flowbite"
 import ProjectFrame from './ProjectFrame';
 
-export default function ProjectCarousel() {
-    
-      const items = [1,1,1];
+export default function ProjectCarousel(projects) {
+
+      const GenerateSlides = () => {
+
+        return projects.projects.map((project) => (
+          <ProjectFrame key={project.id} data={project} />
+        ))
+      }
 
       return  (
-        <div id="controls-carousel" className="relative" data-carousel="static">
+        <div id="controls-carousel" className="relative overflow-hidden" data-carousel>
           <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] px-5 overflow-hidden rounded-lg">
             {/* Carousel Items */}
             
-            {items.forEach(element => {
-              <ProjectFrame data={{title:"fkjf", image:"/Images/lol.jpg"}}/>
-            })};
+            {GenerateSlides()}
 
           </div>
-    
           {/* Previous Button */}
           <button
             type="button"

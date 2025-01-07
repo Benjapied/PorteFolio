@@ -14,12 +14,11 @@ const MyModal = forwardRef((props, ref) => {
   useImperativeHandle(ref, () => ({
     openModal: (data) => {
       setModalContent(
-        <div className="relative w-full max-w-2xl p-4 max-h-full">
-          <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div className="relative w-full max-w-2xl p-4 max-h-full bg-gray-900 rounded-lg shadow dark:bg-gray-700">
             {/* Modal header */}
             <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                {data.title}
+              <h3 className="text-xl font-semibold text-orange-200 dark:text-white">
+                {data.name}
               </h3>
               <button
                 type="button"
@@ -45,21 +44,37 @@ const MyModal = forwardRef((props, ref) => {
               </button>
             </div>
             {/* Modal body */}
-            <div className="p-4 space-y-4">
-              <img src={data.image} alt={data.title} />
+
+            <div className="p-4 space-y-4 flex justify-between">
+              <img className="w-1/2" src={data.images[0]} alt={data.name} />
+              <div className="flex flex-col text-stone-200 w-1/2 pl-3">
+                <p className="py-1">
+                  {`Date: ${data.date}`}
+                </p>
+                <p className="py-1">
+                  {`Durée: ${data.time}`}
+                </p>
+                <p className="py-1">
+                  {`Langage: ${data.language}`}
+                </p>
+                <p className="py-1">
+                  {`Equipe: ${data.equipe} personnes`}
+                </p>
+                <p className="py-1">
+                  {data.description}
+                </p>
+              </div>
             </div>
+
             {/* Modal footer */}
-            <div className="flex items-center p-4 border-t border-gray-200 rounded-b dark:border-gray-600">
-              <button
-                onClick={handleCloseModal}
-                type="button"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Close
-              </button>
+            <div className="flex items-center p-4 border-t border-gray-200 rounded-b dark:border-gray-600"> 
+              {Object.entries(data.links).map(([key, link]) => ( 
+                <div key={key}> 
+                  <a href={link.url} className="text-blue-500">{key}</a> 
+                </div> 
+              ))}
             </div>
           </div>
-        </div>
       );
       setIsModalOpen(true);
     },
