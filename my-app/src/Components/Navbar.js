@@ -7,8 +7,8 @@ import toast, { Toaster } from 'react-hot-toast';
 export default function Navbar() {
 
   const networks = [
-    { name: "Linkedin", href: "#", icon: "icon-linkedin"},
-    { name: "Github", href: "#", icon: "icon-github"},
+    { name: "Linkedin", href: "https://www.linkedin.com/in/benjamin-arhancet-4aa356273/", icon: "icon-linkedin"},
+    { name: "Github", href: "https://github.com/Benjapied", icon: "icon-github"},
     { name: "Gmail", href: "#", icon: "icon-gmail"}
   ]
   
@@ -16,7 +16,7 @@ export default function Navbar() {
     { name: 'Accueil', href: '#', current: true },
     { name: 'Mon expérience', href: '#', current: false },
     { name: 'Projets', href: '#', current: false },
-    { name: 'Galerie', href: '#', current: false },
+    //{ name: 'Galerie', href: '#', current: false },
   ]
 
   useEffect(() => {
@@ -51,8 +51,8 @@ export default function Navbar() {
       //--------------- Panel grand format -----------------
       }
 
-      <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800 sticky trop-0">
+      <div className="min-h-full sticky top-0 z-50">
+        <Disclosure as="nav" className="bg-slate-800 sticky trop-0">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> { /* Contient tout panel qui s'affiche en résolution pc */}
             <div className="flex h-16 items-center justify-between">
               <div className="items-center hidden md:flex ml-10 space-x-4"> { /* Contient les éléments de la navbar */}
@@ -60,6 +60,7 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
+                    target="_blank"
                     aria-current={item.current ? 'page' : undefined}
                     className= 'text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
                   >
@@ -72,6 +73,7 @@ export default function Navbar() {
                   {networks.map((net) => (
                     <a key={net.name} 
                       href={net.href} 
+                      target="_blank"
                       className="flex items-center justify-center h-full px-2"
                     >
                       <span className={`${net.icon} myIcon hover:scale-110 transition duration-200`}></span>

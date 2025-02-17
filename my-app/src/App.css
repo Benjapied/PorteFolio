@@ -81,3 +81,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.bg-banner-header { 
+  background-image: url('./../public/Images/Banners/BannerBackground.png'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+
+@media (min-width: 1024px) {
+  .bg-banner-header { 
+    background-image: url('./../public/Images/Banners/BannerBackground.png'); 
+    background-size: cover; 
+    background-position: center;
+  }
+}
+

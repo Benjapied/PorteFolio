@@ -1,5 +1,6 @@
 
 import React, { useState, forwardRef, useImperativeHandle } from "react";
+import fillImage from "../Tools";
 
 const MyModal = forwardRef((props, ref) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,10 +15,11 @@ const MyModal = forwardRef((props, ref) => {
   useImperativeHandle(ref, () => ({
     openModal: (data) => {
       setModalContent(
-        <div className="relative w-full max-w-2xl p-4 max-h-full bg-gray-900 rounded-lg shadow dark:bg-gray-700">
+        <div className="relative w-full md:h-5/6 md:min-h-2/3 md:w-2/3 bg-gray-900 object-contain rounded-lg shadow dark:bg-gray-700
+        grid grid-rows-8 gap-4 content-around">
             {/* Modal header */}
-            <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600">
-              <h3 className="text-xl font-semibold text-orange-200 dark:text-white">
+            <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600 row-span-1">
+              <h3 className="text-xl font-semibold text-orange-200 pl-15">
                 {data.name}
               </h3>
               <button
@@ -45,9 +47,14 @@ const MyModal = forwardRef((props, ref) => {
             </div>
             {/* Modal body */}
 
-            <div className="p-4 space-y-4 flex justify-between">
-              <img className="w-1/2" src={data.images[0]} alt={data.name} />
-              <div className="flex flex-col text-stone-200 w-1/2 pl-3">
+            <div className="p-4 space-y-4 md:flex justify-between row-span-6 inline">
+            <div className="w-full md:w-1/2 flex flex-col md:h-full">
+                {Object.entries(data.images).map(([key, img]) => (
+                    <img key={key} className="object-contain py-2" style={{ height: 'calc(50% - 8px)', maxHeight: 'calc(50% - 8px)' }} src={img} alt={data.name + " project image"} />
+                ))}
+            </div>
+
+              <div className="flex flex-col text-stone-200 md:w-1/2 pl-3">
                 <p className="py-1">
                   {`Date: ${data.date}`}
                 </p>
@@ -67,9 +74,9 @@ const MyModal = forwardRef((props, ref) => {
             </div>
 
             {/* Modal footer */}
-            <div className="flex items-center p-4 border-t border-gray-200 rounded-b dark:border-gray-600"> 
+            <div className="flex items-center p-4 border-t border-gray-200 rounded-b dark:border-gray-600 md:row-span-1 "> 
               {Object.entries(data.links).map(([key, link]) => ( 
-                <div key={key}> 
+                <div key={key} className="p-2"> 
                   <a href={link.url} className="text-blue-500">{key}</a> 
                 </div> 
               ))}

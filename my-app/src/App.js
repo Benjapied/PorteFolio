@@ -7,6 +7,7 @@ import Projects from './Components/Projects/Projects.js';
 import { useRef } from 'react';
 import MyModal from './Components/Projects/MyModal.js';
 import ModalManager from './Components/Projects/ModalManager.js';
+import Footer from './Components/Footer.js';
 
 function App() {
 
@@ -24,11 +25,13 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header title="PortFolio"/>
+      <Header title="Arhancet Benjamin"/>
       <Description/>
       {/* <Parcours/> */}
       <Projects/>
       
+      <Footer/>
+
       <MyModal ref={modalRef}/>
 
     </div>

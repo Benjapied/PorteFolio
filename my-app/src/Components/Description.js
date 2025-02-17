@@ -4,7 +4,7 @@ import Section from './Section.js'
 export default function Description(){
  
     return (<>
-        <Section bgColor="gray-600">
+        <Section bgColor="orange-200">
             <div className="h-full flex items-center">
                 <div className="w-full bg-gray-800 min-h-60 rounded-md md:h-20">
                     <h2 className="text-white text-4xl px-4 py-3 font-semibold" >
