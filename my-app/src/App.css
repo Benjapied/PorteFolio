@@ -34,14 +34,14 @@
 }
 
 .icon-github:before {
-  content: "\e900";
+  content: "\eab0";
 }
 .icon-github:hover{
   color: #030708;
 }
 
 .icon-gmail:before {
-  content: "\e901";
+  content: "\e900";
 }
 .icon-gmail:hover{
   color: #EB4132;
@@ -52,6 +52,14 @@
 }
 .icon-linkedin:hover{
   color: #0077B7;
+}
+
+.icon-steam:before {
+  content: "\e901";
+}
+
+.icon-steam:hover {
+  color: #061a36;
 }
 
 /*MAIN*/

@@ -11,7 +11,7 @@ function Footer(){
                     Arhancet Benjamin - 2025
                 </p>
                 <p className="font-normal text-white text-xl">
-                    ben.arhancet.2004@gmail.com - 0629270979
+                    ben.arhancet.2004@gmail.com - 06.29.27.09.79
                 </p>
             </div>
        </footer>

@@ -3,41 +3,41 @@
     [
         {
             "id":1,
-            "name": "UNEVEN",
+            "name": "Uneven",
             "date": "2024",
             "time": "4 mois",
             "language": "Unity, C#",
             "equipe": 6,
             "images" :
             [
-                "/Images/UnevenMain.png"
+                "/Images/Projects/Uneven_Labo.png",
+                "/Images/Projects/Uneven_1.jpg"
             ],
-            "description" : "Blablabla le jeu il est cool",
+            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle notre école, une équipe d'étudiants ont crée Uneven: un jeu d'aventure solo en 3d isométrique",
             "skills":"Etre le goat",
             "links":
             {
-                "github":"fkdjf",
-                "steam":"fkdjf"
+                "github":"https://github.com/UVictoras/Uneven",
+                "steam":"https://store.steampowered.com/app/3260570/Uneven/"
             }
         },
         {
             "id":2,
-            "name": "Casse Brick",
+            "name": "Création moteur graphique",
             "date": "2024",
-            "time": "4 mois",
-            "language": "Unity, C#",
-            "equipe": 6,
+            "time": "1 mois",
+            "language": "C++, DirectX 12",
+            "equipe": 4,
             "images" :
             [
-                "/Images/Casse-Brick.png",
-                "/Images/Casse-Brick.png"
+                "/Images/Projects/DX12_engine_1.png",
+                "/Images/Projects/DX12_engine_2.png"
             ],
-            "description" : "Blablabla le jeu il est cool",
-            "skills":"Etre le goat",
+            "description" : "Le but de ce projet était de créer en 1 mois les bases d'un moteur graphique fonctionnel. Nous avons utilisé pour ça directX12 afin de créer un space shooter à la première personne.\n Pour entrer dans les détails, nous avons séparé la partie moteur de la partie application, cette dernière utilisant les fonctionnalités de notre moteur pour créer les ennemies et les projectiles.\n Nous avons dû réfléchir longement à notre architecture pour qu'elle se rapproche au mieux d'un moteur graphique classique",
+            "skills":"Développement C++, développement directX 12, notions fondamentales d'un moteur graphique, ",
             "links":
             {
-                "github":"fkdjf",
-                "steam":"fkdjf"
+                "github":"https://github.com/Jfabregoule/Direct-X12-GameEngine"
             }
         },
         {
@@ -49,7 +49,7 @@
             "equipe": 2,
             "images" :
             [
-                "/Images/unity3D-levelDesign.png"
+                "/Images/Projects/unity3D-levelDesign.png"
             ],
             "description" : "Blablabla le jeu il est cool",
             "skills":"Etre le goat",
@@ -68,7 +68,7 @@
             "equipe": 2,
             "images" :
             [
-                "/Images/unity3D-levelDesign.png"
+                "/Images/Projects/unity3D-levelDesign.png"
             ],
             "description" : "Blablabla le jeu il est cool",
             "skills":"Etre le goat",

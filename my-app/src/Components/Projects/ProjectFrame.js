@@ -11,7 +11,7 @@ export default function ProjectFrame({data}){
     return (
         <div className="hidden duration-700 ease-in-out w-full bg-gray-600" data-carousel-item>
 
-        <h2>{data.name}</h2>
+        <h2 className="text-white lg:text-2xl text-5xl lg:text-4xl lg:py-3 font-semibold flex flex-col justify-center items-center">{data.name}</h2>
 
         <img
         src={data.images[0]}
