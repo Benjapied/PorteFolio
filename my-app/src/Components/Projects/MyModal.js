@@ -63,14 +63,11 @@ const MyModal = forwardRef((props, ref) => {
               </button>
             </div>
             {/* Modal body */}
-            <div className="flex flex-col p-4 space-y-4 lg:flex-row lg:justify-between row-span-6 inline">
-              <div className="w-full lg:w-1/2 flex flex-col lg:h-full order-2 lg:order-1">
+            <div className="grid grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 gap-4 p-4 space-y-4 lg:flex-row lg:justify-between row-span-6 inline">
                   {Object.entries(data.images).map(([key, img]) => (
-                      <img key={key} className="object-contain py-2" style={{ height: 'calc(50% - 8px)', maxHeight: 'calc(50% - 8px)' }} src={img} alt={data.name + " project image"} />
+                      <img key={key} className="object-contain w-full py-2" src={img} alt={data.name + " project image"} />
                   ))}
-              </div>
-
-              <div className="flex flex-col text-stone-200 mx-3 lg:w-1/2 pl-3 order-1 lg:order-2">
+              <div className="flex flex-col text-stone-200 mx-3 pl-3 order-1 lg:order-3">
                 <div className="flex w-full">
                   <p className="py-1 px-2 lg:pr-6">
                     {`Date: ${data.date}`}
