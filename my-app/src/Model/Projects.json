@@ -10,11 +10,12 @@
             "equipe": 6,
             "images" :
             [
-                "/Images/Projects/Uneven_Labo.png",
-                "/Images/Projects/Uneven_1.jpg"
+                "/Images/Projects/Uneven/Uneven_trailer.mp4",
+                "/Images/Projects/Uneven/Uneven_Labo.png",
+                "/Images/Projects/Uneven/Uneven_1.jpg"
             ],
-            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle notre école, une équipe d'étudiants ont crée Uneven: un jeu d'aventure solo en 3d isométrique",
-            "skills":"Etre le goat",
+            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle de notre école, j'ai intégré une équipe de développeur dans le but de créer un jeu: Uneven. C'est un jeu d'aventure solo en 3d isométrique. C'était une première pour toute l'équipe de créer un projet Unity aussi ambitieux. Ce fut une excellente manière de s'habituer au moteur 3D et au C# ",
+            "skills":"Unity & C#, gestion de projet, game design & level design, création de mécaniques, UI",
             "links":
             {
                 "github":"https://github.com/UVictoras/Uneven",
@@ -27,11 +28,13 @@
             "date": "2024",
             "time": "1 mois",
             "language": "C++, DirectX 12",
-            "equipe": 4,
+            "equipe": 5,
             "images" :
             [
-                "/Images/Projects/DX12_engine_1.png",
-                "/Images/Projects/DX12_engine_2.png"
+                
+                "/Images/Projects/DX12_engine/DX12_engine_video.mp4",
+                "/Images/Projects/DX12_engine/DX12_engine_1.png",
+                "/Images/Projects/DX12_engine/DX12_engine_2.png"
             ],
             "description" : "Le but de ce projet était de créer en 1 mois les bases d'un moteur graphique fonctionnel. Nous avons utilisé pour ça directX12 afin de créer un space shooter à la première personne.\n Pour entrer dans les détails, nous avons séparé la partie moteur de la partie application, cette dernière utilisant les fonctionnalités de notre moteur pour créer les ennemies et les projectiles.\n Nous avons dû réfléchir longement à notre architecture pour qu'elle se rapproche au mieux d'un moteur graphique classique",
             "skills":"Développement C++, développement directX 12, notions fondamentales d'un moteur graphique, ",
@@ -51,31 +54,71 @@
             [
                 "/Images/Projects/unity3D-levelDesign.png"
             ],
-            "description" : "Blablabla le jeu il est cool",
-            "skills":"Etre le goat",
+            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système de combat entre le joueur et différents enemies sur une carte imaginée par mes soins. Ce projet était parfait pour approfondir mes compétences en C# et moteur.",
+            "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
             "links":
             {
-                "github":"fkdjf",
-                "steam":"fkdjf"
+                "github":"https://github.com/Benjapied/Project-4_Unity-3D"
             }
         },
         {
             "id":4,
-            "name": "Unity 3D",
+            "name": "Unity UI",
             "date": "2024",
             "time": "2 semaines",
             "language": "Unity, C#",
             "equipe": 2,
             "images" :
             [
-                "/Images/Projects/unity3D-levelDesign.png"
+                "/Images/Projects/UnityUI/UnityUI_video.mp4",
+                "/Images/Projects/UnityUI/UnityUI_1.png",
+                "/Images/Projects/UnityUI/UnityUI_2.png"
             ],
-            "description" : "Blablabla le jeu il est cool",
-            "skills":"Etre le goat",
+            "description" : "Lors de ce projet, nous avions pour but de créer un jeu type idle et incrémental. Ce projet étant sur le thème des UI, nous avons décidé d'en jouer et de créer une fabrique de UI. L'avancée dans le jeu nous permettait donc d'améliorer les UI du jeu. J'ai donc commencé par designer les UI sur figma puis à les importer sur Unity. Nous avons beaucou appris sur les bonnes et mauvaises pratiques des UI sur Unity.",
+            "skills":"UI design & UI fonctionnel, Unity & C#, Figma",
             "links":
             {
-                "github":"fkdjf",
-                "steam":"fkdjf"
+                "github":"https://github.com/Benjapied/Project-7_Unity-UI"
+            }
+        },
+        {
+            "id":5,
+            "name": "Unity Shader/VFX",
+            "date": "2024",
+            "time": "2 semaines",
+            "language": "Unity, C#, Shader Graph & Visual effect graph",
+            "equipe": 3,
+            "images" :
+            [
+                "/Images/Projects/Unity_shader/Unity_shader_video.mp4",
+                "/Images/Projects/Unity_shader/Unity_shader_1.png",
+                "/Images/Projects/Unity_shader/Unity_shader_2.mp4"
+            ],
+            "description" : "Pour commencer ce projet, j'ai pris en référence des sorts de League of Legends et j'ai essayé de les reproduire. J'ai choisi deux sorts de Veigar, et je les ai analysés image par image pour décortiquer les élements de l'effet spécial et... voici le résultat! Grace à ce projet, je suis maintenant capable d'embellir mes créations avec des particules et des shaders.",
+            "skills":"Shader Graph, Visual effect graph, Particle system, Unity & C#",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-5_Unity-Shader"
+            }
+        },
+        {
+            "id":6,
+            "name": "Unreal Engine Blueprint",
+            "date": "2025",
+            "time": "2 semaines",
+            "language": "Unreal Engine, Blueprint",
+            "equipe": 2,
+            "images" :
+            [
+                "/Images/Projects/UE_blueprint/UE_blueprint_video.mp4",
+                "/Images/Projects/UE_blueprint/UE_blueprint_1.png",
+                "/Images/Projects/UE_blueprint/UE_blueprint_2.png"
+            ],
+            "description" : "Voici mon premier projet réalisé sur Unreal Engine en blueprint. L'objectif était de créer un jeu puzzle avec des mécaniques très simples. Il y avait majoritairement des mécaniques d'activation par exemple des boutons, des plaques de pression et des portes qui s'ouvrent. Ca nous a permi de comprendre et d'intégrer l'héritage et les interfaces. Ce projet a été une bonne entrée en matière vers le développement sur Unreal!",
+            "skills":"Unreal Engine, Blueprint, Level design",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-8_Unreal-Blueprint"
             }
         }
     ]
