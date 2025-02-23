@@ -112,11 +112,11 @@ openModal: (data) => {
 
             return isVideo ? (
             <video key={key} className="object-contain w-full py-2" controls>
-              <source src={img} type="video/mp4" />
+              <source src={`${process.env.PUBLIC_URL}` + img} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             ) : (
-            <img key={key} className="object-contain w-full py-2" src={img} alt={`${data.name} project image`} />
+            <img key={key} className="object-contain w-full py-2" src={`${process.env.PUBLIC_URL}` + img} alt={`${data.name} project image`} />
             );
           })}
 

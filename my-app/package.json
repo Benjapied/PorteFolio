@@ -8,12 +8,15 @@
     "cra-template": "1.2.0",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.4.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +49,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
-  }
+  },
+  "homepage": "https://benjapied.github.io/PorteFolio"
 }

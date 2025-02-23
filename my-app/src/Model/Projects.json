@@ -10,7 +10,7 @@
             "equipe": 6,
             "images" :
             [
-                "/Images/Projects/Uneven/Uneven_trailer.mp4",
+                "/Images/Projects/Uneven/Uneven_video.mp4",
                 "/Images/Projects/Uneven/Uneven_Labo.png",
                 "/Images/Projects/Uneven/Uneven_1.jpg"
             ],
@@ -52,7 +52,8 @@
             "equipe": 2,
             "images" :
             [
-                "/Images/Projects/unity3D-levelDesign.png"
+                "/Images/Projects/Unity3D/Unity3D_video.mp4",
+                "/Images/Projects/Unity3D/Unity3D_levelDesign.png"
             ],
             "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système de combat entre le joueur et différents enemies sur une carte imaginée par mes soins. Ce projet était parfait pour approfondir mes compétences en C# et moteur.",
             "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
