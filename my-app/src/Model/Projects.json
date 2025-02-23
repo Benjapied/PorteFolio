@@ -53,7 +53,8 @@
             "images" :
             [
                 "/Images/Projects/Unity3D/Unity3D_video.mp4",
-                "/Images/Projects/Unity3D/Unity3D_levelDesign.png"
+                "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
+                "/Images/Projects/Unity3D/Unity3D_2.png"
             ],
             "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système de combat entre le joueur et différents enemies sur une carte imaginée par mes soins. Ce projet était parfait pour approfondir mes compétences en C# et moteur.",
             "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
