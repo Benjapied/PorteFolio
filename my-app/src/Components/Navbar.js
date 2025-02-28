@@ -9,7 +9,7 @@ export default function Navbar() {
   const networks = [
     { name: "Linkedin", href: "https://www.linkedin.com/in/benjamin-arhancet-4aa356273/", icon: "icon-linkedin"},
     { name: "Github", href: "https://github.com/Benjapied", icon: "icon-github"},
-    { name: "Gmail", href: "#", icon: "icon-gmail"}
+    { name: "Gmail", href: "", icon: "icon-gmail"}
   ]
   
   const navigation = [
@@ -70,10 +70,16 @@ export default function Navbar() {
               
               <div className="hidden md:flex w-40 h-full justify-end"> {/* Icones de réseaux */}
                   {networks.map((net) => (
-                    <a key={net.name} 
+                    <a 
+                      key={net.name} 
                       href={net.href} 
                       target="_blank"
                       className="flex items-center justify-center h-full px-2"
+                      onClick={(e) => {
+                        if (net.href === "") {
+                          e.preventDefault(); 
+                        }
+                      }}
                     >
                       <span className={`${net.icon} myIcon hover:scale-110 transition duration-200`}></span>
                     </a>
@@ -116,6 +122,11 @@ export default function Navbar() {
                     as="a"
                     href={net.href}
                     className="flex rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                    onClick={(e) => {
+                      if (net.href === "") {
+                        e.preventDefault(); 
+                      }
+                    }}
                   >
                     <span className={`${net.icon} myIcon`}></span>
                     
