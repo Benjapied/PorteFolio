@@ -20,6 +20,21 @@ export default function Description(){
          
                         </p>
                     </div>
+                    <div className="flex justify-center w-full my-5">
+                    <button 
+                        type="button" 
+                        className="text-white bg-gray-700 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        onClick={() => {
+                        // Force le téléchargement du PDF
+                        const link = document.createElement("a");
+                        link.href = `${process.env.PUBLIC_URL}/Resources/CV_Benjamin_Arhancet.pdf`; // Spécifie le chemin vers ton fichier PDF
+                        link.download = "cv-benjamin-arhancet.pdf"; 
+                        link.click();
+                        }}
+                    >
+                        Mon CV
+                    </button>
+                    </div>
                 </div>
             </div>
         </Section>
