@@ -1,5 +1,4 @@
 import React from 'react';
-import "flowbite"
 import ProjectFrame from './ProjectFrame';
 
 export default function ProjectCarousel(projects) {

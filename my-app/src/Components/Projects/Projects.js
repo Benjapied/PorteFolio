@@ -9,7 +9,7 @@ export default function Projects(){
 
     return (
         <>
-        <Section bgColor="gray-700">
+        <Section bgColor="gray-700" identity="project">
             <Subtitle title='Projets' textColor="white"/> 
             <div className="lg:min-w-2/3 items-center">
                 <ProjectCarousel projects={data.projects}/>

@@ -21,5 +21,7 @@ module.exports = {
     'bg-gray-700',
     'bg-gray-800',
     'bg-gray-900',
+    'hidden',
+    'active',
   ],
 };

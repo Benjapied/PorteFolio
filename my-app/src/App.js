@@ -4,7 +4,7 @@ import Header from './Components/Header.js';
 import Description from './Components/Description.js';
 import Projects from './Components/Projects/Projects.js';
 
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import MyModal from './Components/Projects/MyModal.js';
 import ModalManager from './Components/Projects/ModalManager.js';
 import Footer from './Components/Footer.js';
@@ -22,6 +22,10 @@ function App() {
 
   ModalManager.setModalRef(modalRef);
 
+  useEffect(() => {
+    console.log(window.Flowbite)
+  });
+
   return (
     <div className="App">
       <Navbar/>
@@ -29,7 +33,6 @@ function App() {
       <Description/>
       {/* <Parcours/> */}
       <Projects/>
-      
       <Footer/>
 
       <MyModal ref={modalRef}/>

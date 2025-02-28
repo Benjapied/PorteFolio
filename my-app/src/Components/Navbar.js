@@ -15,7 +15,7 @@ export default function Navbar() {
   const navigation = [
     { name: 'Accueil', href: '#', current: true },
     //{ name: 'Mon expérience', href: '#', current: false },
-    { name: 'Projets', href: '#', current: false },
+    { name: 'Projets', href: '#project', current: false },
     //{ name: 'Galerie', href: '#', current: false },
   ]
 
