@@ -3,7 +3,7 @@ import ProjectFrame from './ProjectFrame';
 import { useState } from 'react';
 
 export default function ProjectCarousel({ projects }) {
-  const [activeIndex, setActiveIndex] = useState(1); // L'index de l'élément actif
+  const [activeIndex, setActiveIndex] = useState(0); // L'index de l'élément actif
 
   // Fonction pour passer à l'image suivante
   const nextSlide = () => {

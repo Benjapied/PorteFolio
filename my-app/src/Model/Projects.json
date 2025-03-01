@@ -122,6 +122,66 @@
             {
                 "github":"https://github.com/Benjapied/Project-8_Unreal-Blueprint"
             }
+        },
+        {
+            "id":7,
+            "name": "Unreal Engine C++",
+            "date": "2025",
+            "time": "3 semaines",
+            "language": "Unreal Engine, C++",
+            "equipe": 3,
+            "images" :
+            [
+                "/Images/Projects/Unreal_cpp/Unreal_cpp_video.mp4",
+                "/Images/Projects/Unreal_cpp/Unreal_cpp_1.png",
+                "/Images/Projects/Unreal_cpp/Unreal_cpp_2.png"
+            ],
+            "description" : "Ce deuxieme projet réalisé sur Unreal Engine était cette fois-ci en C++. Ce fût assez difficile à prendre en main au début, mais j'ai maintenant les compétences pour créer un jeu simple sur Unreal en C++! J'ai pu dans ce projet approfondir l'héritage et les interfaces, ça a aussi amélioré mon esprit de développeur, j'ai dû réfléchir à l'architecture de mes classes, ce qui m'a permi de créer du code propre et modulable.",
+            "skills":"Unreal Engine, C++, Level design, Architecture classes",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-9_Unreal-CPP"
+            }
+        },
+        {
+            "id":8,
+            "name": "Encapsulation",
+            "date": "2024",
+            "time": "2 semaines",
+            "language": "C++, GDI, SDL",
+            "equipe": 2,
+            "images" :
+            [
+                "/Images/Projects/Encapsulation/Encapsulation_1.png",
+                "/Images/Projects/Encapsulation/Encapsulation_video_1.mp4",
+                "/Images/Projects/Encapsulation/Encapsulation_video_2.mp4"
+            ],
+            "description" : "Ce projet avait pour but de créer une librairie static avec laquelle on pourrait créer des élements graphiques et les manipuler. Nous devions donc utiliser SFML et GDI pour l'affichage, et pouvoir intervertir les deux librairies avec des directives préprocesseur. Il fallait ensuite utiliser notre librairie dans une application pour afficher des balles qui rebondissent. On pouvait ensuite voir qu'avec SFML, il y avait plus de balles car SFML faisait ses calculs sur le GPU à la différence de GDI.",
+            "skills":"Architecture de classes C++, C++, Création librairie",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-9_Unreal-CPP"
+            }
+        },
+        {
+            "id":9,
+            "name": "Steganographie",
+            "date": "2024",
+            "time": "2 semaines",
+            "language": "C++, GDI",
+            "equipe": 2,
+            "images" :
+            [
+                "/Images/Projects/Stegano/Stegano_1.png",
+                "/Images/Projects/Stegano/Stegano_2.mp4",
+                "/Images/Projects/Stegano/Stegano_3.mp4"
+            ],
+            "description" : "Dans ce projet, nous devions cacher un message dans une image BMP. Nous avons pour cela décortiqué l'image et grâce aux opérateurs binaires, nous avons caché des caractères dans des pixels. On peut voir dans les vidéo une image dans laquelle on cache un message et la même image que l'on décrypte pour retrouver le message mis précedemment.",
+            "skills":"Windows GDI, C++, manipulation binaire",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-9_Unreal-CPP"
+            }
         }
     ]
     
