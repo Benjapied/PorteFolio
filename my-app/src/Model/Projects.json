@@ -56,7 +56,7 @@
                 "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
                 "/Images/Projects/Unity3D/Unity3D_2.png"
             ],
-            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système d'arme générique utilisé par le joueur et les ennemies. \nJ'ai crée l'entiereté de la carte de jeu avec ProBuilder et des assets gratuites, avec plusieurs essais ittératifs, j'ai pu peaufiner mes compétences en level design. \nCe projet était parfait pour approfondir mes compétences en C# et Unity.",
+            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système d'arme générique utilisé par le joueur et les ennemies. \nJ'ai crée l'entièreté de la carte de jeu avec ProBuilder et des assets gratuites, avec plusieurs essais itératifs, j'ai pu peaufiner mes compétences en level design. \nCe projet était parfait pour approfondir mes compétences en C# et Unity.",
             "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
             "links":
             {

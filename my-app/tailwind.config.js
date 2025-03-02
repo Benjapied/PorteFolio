@@ -23,5 +23,8 @@ module.exports = {
     'bg-gray-900',
     'hidden',
     'active',
+    'my-white',
+    'my-blue',
+    'my-orange',
   ],
 };

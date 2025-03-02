@@ -32,7 +32,7 @@ setModalContent(null);
 useImperativeHandle(ref, () => ({
 openModal: (data) => {
   setModalContent(
-    <div className="relative w-full h-full md:min-h-5/6 md:min-h-2/3 md:w-2/3 bg-gray-900 object-contain rounded-lg shadow dark:bg-gray-700
+    <div className="relative w-full h-full md:min-h-5/6 md:min-h-2/3 md:w-2/3 bg-my-blue object-contain rounded-lg shadow dark:bg-gray-700
     grid grid-rows-[auto] gap-4 content-around overflow-y-auto overflow-x-hidden scrollbar-hide">
         {/* Modal header */}
         <div className="flex w-full items-center justify-between p-4 border-b rounded-t dark:border-gray-600 row-span-1">

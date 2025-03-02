@@ -52,7 +52,7 @@ export default function Navbar() {
       }
 
       <div className="min-h-full sticky top-0 z-50">
-        <Disclosure as="nav" className="bg-slate-800 sticky trop-0">
+        <Disclosure as="nav" className="bg-my-blue sticky trop-0">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> { /* Contient tout panel qui s'affiche en résolution pc */}
             <div className="flex h-16 items-center justify-between">
               <div className="items-center hidden md:flex ml-10 space-x-4"> { /* Contient les éléments de la navbar */}

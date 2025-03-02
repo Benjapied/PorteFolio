@@ -105,3 +105,26 @@
   }
 }
 
+.bg-my-white {
+  background-color: #fffdf0;
+}
+
+.bg-my-blue {
+  background-color: #162d43;
+}
+
+.bg-my-orange {
+  background-color: #ff914d;
+}
+
+.text-my-white {
+  color: #fffdf0;
+}
+
+.text-my-blue {
+  color: #162d43;
+}
+
+.text-my-orange {
+  color: #ff914d;
+}

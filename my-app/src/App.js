@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header title="Arhancet Benjamin"/>
+      <Header title="Benjamin Arhancet"/>
       <Description/>
       {/* <Parcours/> */}
       <Projects/>
