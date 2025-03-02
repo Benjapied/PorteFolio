@@ -14,7 +14,7 @@
                 "/Images/Projects/Uneven/Uneven_Labo.png",
                 "/Images/Projects/Uneven/Uneven_1.jpg"
             ],
-            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle de notre école, j'ai intégré une équipe de développeur dans le but de créer un jeu: Uneven. C'est un jeu d'aventure solo en 3d isométrique. C'était une première pour toute l'équipe de créer un projet Unity aussi ambitieux. Ce fut une excellente manière de s'habituer au moteur 3D et au C# ",
+            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle de notre école, j'ai intégré une équipe de développeur dans le but de créer un jeu: Uneven. C'est un jeu d'aventure solo en 3d isométrique. C'était une première pour toute l'équipe de créer un projet Unity aussi ambitieux. Ce fut une excellente manière de s'habituer au moteur 3D et au C#.",
             "skills":"Unity & C#, gestion de projet, game design & level design, création de mécaniques, UI",
             "links":
             {
@@ -56,7 +56,7 @@
                 "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
                 "/Images/Projects/Unity3D/Unity3D_2.png"
             ],
-            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système de combat entre le joueur et différents enemies sur une carte imaginée par mes soins. Ce projet était parfait pour approfondir mes compétences en C# et moteur.",
+            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système d'arme générique utilisé par le joueur et les ennemies. \nJ'ai crée l'entiereté de la carte de jeu avec ProBuilder et des assets gratuites, avec plusieurs essais ittératifs, j'ai pu peaufiner mes compétences en level design. \nCe projet était parfait pour approfondir mes compétences en C# et Unity.",
             "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
             "links":
             {
@@ -181,6 +181,26 @@
             "links":
             {
                 "github":"https://github.com/Benjapied/Project-1_CPP-Programmation"
+            }
+        },
+        {
+            "id":10,
+            "name": "IA & State Machine",
+            "date": "2024",
+            "time": "2 semaines",
+            "language": "C++, SFML",
+            "equipe": 2,
+            "images" :
+            [
+                "/Images/Projects/IA/IA_1.png",
+                "/Images/Projects/IA/IA_2.png",
+                "/Images/Projects/IA/IA_video.mp4"
+            ],
+            "description" : "Le coeur de ce projet fut de créer des intelligences artificielles capables de jouer au rugby entre elles. Ce projet ayant pour but de nous initier aux states machines, j'ai donc crée une state machine centralisée dans laquelle on va envoyer chaque référence des entités concernées. Ensuite, grâce à un systeme d'état, de conditions et transitions, chaque entité pouvait ainsi changer d'état en fonction du déroulé du jeu et de son environnement.",
+            "skills":"C++, Algorithmie, State Machine",
+            "links":
+            {
+                "github":"https://github.com/Benjapied/Project-3_AI-State-Machine"
             }
         }
     ]
