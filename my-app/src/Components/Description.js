@@ -12,8 +12,9 @@ export default function Description(){
                     </h2>
                     <div className="p-3">
                         <p className="text-white">
-                            Je suis Benjamin Arhancet, j'ai 20 ans et créer mes propres jeux vidéo: voilà l'objectif que je me suis fixé depuis maintenant quelques années. <br />
-                            Ayant beaucoup joué à toutes sortes de jeux depuis mon enfance, je me suis toujours demandé ce qu'il se cachait derrière ces systèmes complexes, ces paysages fabuleux et ces histoires passionantes. <br />
+                            Je suis Benjamin Arhancet et j'ai 20 ans. <br/>
+                            Cela fait maintenant plusieurs années que mon objectif est de pouvoir créer mes propres jeux vidéo. <br />
+                            Ayant beaucoup joué à toutes sortes de jeux depuis mon enfance, je me suis toujours demandé ce qu'il se cachait derrière ces systèmes complexes, ces paysages fabuleux et ces histoires passionnantes. <br />
                             C'est pour cela qu'en 2022, j'ai intégré le Gaming Campus: une école d'informatique pour apprendre le développement de jeu vidéo de A à Z. J'ai pendant ce cursus réalisé de nombreux projets qui m'ont permi de devenir chaque jour meilleur dans ce domaine. <br />
                             J'ai à présent les compétences pour créer mes propres jeux, et je suis actuellement à la recherche d'une alternance dans un studio. <br />
                             Sur ce site, vous pourrez observer les différents projets que j'ai réalisés durant mes études, je vous souhaite donc une bonne visite !<br />

@@ -9,7 +9,8 @@ export default function Navbar() {
   const networks = [
     { name: "Linkedin", href: "https://www.linkedin.com/in/benjamin-arhancet-4aa356273/", icon: "icon-linkedin"},
     { name: "Github", href: "https://github.com/Benjapied", icon: "icon-github"},
-    { name: "Gmail", href: "", icon: "icon-gmail"}
+    { name: "Gmail", href: "", icon: "icon-gmail"},
+    { name: "Steam", href: "https://steamcommunity.com/profiles/76561198880108085/", icon: "icon-steam"}
   ]
   
   const navigation = [

@@ -76,7 +76,7 @@
                 "/Images/Projects/UnityUI/UnityUI_1.png",
                 "/Images/Projects/UnityUI/UnityUI_2.png"
             ],
-            "description" : "Lors de ce projet, nous avions pour but de créer un jeu type idle et incrémental. Ce projet étant sur le thème des UI, nous avons décidé d'en jouer et de créer une fabrique de UI. L'avancée dans le jeu nous permettait donc d'améliorer les UI du jeu. J'ai donc commencé par designer les UI sur figma puis à les importer sur Unity. Nous avons beaucou appris sur les bonnes et mauvaises pratiques des UI sur Unity.",
+            "description" : "Lors de ce projet, nous avions pour but de créer un jeu type idle et incrémental. Ce projet étant sur le thème des UI, nous avons décidé d'en jouer et de créer une fabrique de UI. L'avancée dans le jeu nous permettait donc d'améliorer les UI du jeu. J'ai donc commencé par designer les UI sur figma puis à les importer sur Unity. Nous avons beaucoup appris sur les bonnes et mauvaises pratiques des UI sur Unity.",
             "skills":"UI design & UI fonctionnel, Unity & C#, Figma",
             "links":
             {
