@@ -1,8 +1,9 @@
 import React from 'react';
 import ProjectFrame from './ProjectFrame';
 import { useState } from 'react';
+import { useLanguage } from '../../LanguageContext';
 
-export default function ProjectCarousel({ projects }) {
+export default function ProjectCarousel({ projects, globalParam }) {
   const [activeIndex, setActiveIndex] = useState(0); // L'index de l'élément actif
 
   // Fonction pour passer à l'image suivante
@@ -30,6 +31,7 @@ export default function ProjectCarousel({ projects }) {
           isActive={isActive}
           isPrevious={isPrevious}
           isNext={isNext}
+          globalParam={globalParam}
         />
       );
     });

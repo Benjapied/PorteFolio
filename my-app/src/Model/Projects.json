@@ -1,209 +1,413 @@
 {
     "projects" :
-    [
-        {
-            "id":1,
-            "name": "Uneven",
-            "date": "2024",
-            "time": "4 mois",
-            "language": "Unity, C#",
-            "equipe": 6,
-            "images" :
-            [
-                "/Images/Projects/Uneven/Uneven_video.mp4",
-                "/Images/Projects/Uneven/Uneven_Labo.png",
-                "/Images/Projects/Uneven/Uneven_1.jpg"
-            ],
-            "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle de notre école, j'ai intégré une équipe de développeur dans le but de créer un jeu: Uneven. C'est un jeu d'aventure solo en 3d isométrique. C'était une première pour toute l'équipe de créer un projet Unity aussi ambitieux. Ce fut une excellente manière de s'habituer au moteur 3D et au C#.",
-            "skills":"Unity & C#, gestion de projet, game design & level design, création de mécaniques, UI",
-            "links":
+    {
+        "francais":
+        [
             {
-                "github":"https://github.com/UVictoras/Uneven",
-                "steam":"https://store.steampowered.com/app/3260570/Uneven/"
+                "id":1,
+                "name": "Uneven",
+                "date": "2024",
+                "time": "4 mois",
+                "language": "Unity, C#",
+                "equipe": 6,
+                "images" :
+                [
+                    "/Images/Projects/Uneven/Uneven_video.mp4",
+                    "/Images/Projects/Uneven/Uneven_Labo.png",
+                    "/Images/Projects/Uneven/Uneven_1.jpg"
+                ],
+                "description" : "Dans le cadre d'un projet de stage d'été sous la tutelle de notre école, j'ai intégré une équipe de développeur dans le but de créer un jeu: Uneven. C'est un jeu d'aventure solo en 3d isométrique. C'était une première pour toute l'équipe de créer un projet Unity aussi ambitieux. Ce fut une excellente manière de s'habituer au moteur 3D et au C#.",
+                "skills":"Unity & C#, gestion de projet, game design & level design, création de mécaniques, UI",
+                "links":
+                {
+                    "github":"https://github.com/UVictoras/Uneven",
+                    "steam":"https://store.steampowered.com/app/3260570/Uneven/"
+                }
+            },
+            {
+                "id":2,
+                "name": "Création moteur graphique",
+                "date": "2024",
+                "time": "1 mois",
+                "language": "C++, DirectX 12",
+                "equipe": 5,
+                "images" :
+                [
+                    
+                    "/Images/Projects/DX12_engine/DX12_engine_video.mp4",
+                    "/Images/Projects/DX12_engine/DX12_engine_1.png",
+                    "/Images/Projects/DX12_engine/DX12_engine_2.png"
+                ],
+                "description" : "Le but de ce projet était de créer en 1 mois les bases d'un moteur graphique fonctionnel. Nous avons utilisé pour ça directX12 afin de créer un space shooter à la première personne.\n Pour entrer dans les détails, nous avons séparé la partie moteur de la partie application, cette dernière utilisant les fonctionnalités de notre moteur pour créer les ennemies et les projectiles.\n Nous avons dû réfléchir longement à notre architecture pour qu'elle se rapproche au mieux d'un moteur graphique classique",
+                "skills":"Développement C++, développement directX 12, notions fondamentales d'un moteur graphique, ",
+                "links":
+                {
+                    "github":"https://github.com/Jfabregoule/Direct-X12-GameEngine"
+                }
+            },
+            {
+                "id":3,
+                "name": "Unity 3D",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "Unity, C#",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/Unity3D/Unity3D_video.mp4",
+                    "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
+                    "/Images/Projects/Unity3D/Unity3D_2.png"
+                ],
+                "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système d'arme générique utilisé par le joueur et les ennemies. \nJ'ai crée l'entièreté de la carte de jeu avec ProBuilder et des assets gratuites, avec plusieurs essais itératifs, j'ai pu peaufiner mes compétences en level design. \nCe projet était parfait pour approfondir mes compétences en C# et Unity.",
+                "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-4_Unity-3D"
+                }
+            },
+            {
+                "id":4,
+                "name": "Unity UI",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "Unity, C#",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/UnityUI/UnityUI_video.mp4",
+                    "/Images/Projects/UnityUI/UnityUI_1.png",
+                    "/Images/Projects/UnityUI/UnityUI_2.png"
+                ],
+                "description" : "Lors de ce projet, nous avions pour but de créer un jeu type idle et incrémental. Ce projet étant sur le thème des UI, nous avons décidé d'en jouer et de créer une fabrique de UI. L'avancée dans le jeu nous permettait donc d'améliorer les UI du jeu. J'ai donc commencé par designer les UI sur figma puis à les importer sur Unity. Nous avons beaucoup appris sur les bonnes et mauvaises pratiques des UI sur Unity.",
+                "skills":"UI design & UI fonctionnel, Unity & C#, Figma",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-7_Unity-UI"
+                }
+            },
+            {
+                "id":5,
+                "name": "Unity Shader/VFX",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "Unity, C#, Shader Graph & Visual effect graph",
+                "equipe": 3,
+                "images" :
+                [
+                    "/Images/Projects/Unity_shader/Unity_shader_video.mp4",
+                    "/Images/Projects/Unity_shader/Unity_shader_1.png",
+                    "/Images/Projects/Unity_shader/Unity_shader_2.mp4"
+                ],
+                "description" : "Pour commencer ce projet, j'ai pris en référence des sorts de League of Legends et j'ai essayé de les reproduire. J'ai choisi deux sorts de Veigar, et je les ai analysés image par image pour décortiquer les élements de l'effet spécial et... voici le résultat! Grace à ce projet, je suis maintenant capable d'embellir mes créations avec des particules et des shaders.",
+                "skills":"Shader Graph, Visual effect graph, Particle system, Unity & C#",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-5_Unity-Shader"
+                }
+            },
+            {
+                "id":6,
+                "name": "Unreal Engine Blueprint",
+                "date": "2025",
+                "time": "2 semaines",
+                "language": "Unreal Engine, Blueprint",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/UE_blueprint/UE_blueprint_video.mp4",
+                    "/Images/Projects/UE_blueprint/UE_blueprint_1.png",
+                    "/Images/Projects/UE_blueprint/UE_blueprint_2.png"
+                ],
+                "description" : "Voici mon premier projet réalisé sur Unreal Engine en blueprint. L'objectif était de créer un jeu puzzle avec des mécaniques très simples. Il y avait majoritairement des mécaniques d'activation par exemple des boutons, des plaques de pression et des portes qui s'ouvrent. Ca nous a permi de comprendre et d'intégrer l'héritage et les interfaces. Ce projet a été une bonne entrée en matière vers le développement sur Unreal!",
+                "skills":"Unreal Engine, Blueprint, Level design",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-8_Unreal-Blueprint"
+                }
+            },
+            {
+                "id":7,
+                "name": "Unreal Engine C++",
+                "date": "2025",
+                "time": "3 semaines",
+                "language": "Unreal Engine, C++",
+                "equipe": 3,
+                "images" :
+                [
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_video.mp4",
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_1.png",
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_2.png"
+                ],
+                "description" : "Ce deuxieme projet réalisé sur Unreal Engine était cette fois-ci en C++. Ce fût assez difficile à prendre en main au début, mais j'ai maintenant les compétences pour créer un jeu simple sur Unreal en C++! J'ai pu dans ce projet approfondir l'héritage et les interfaces, ça a aussi amélioré mon esprit de développeur, j'ai dû réfléchir à l'architecture de mes classes, ce qui m'a permi de créer du code propre et modulable.",
+                "skills":"Unreal Engine, C++, Level design, Architecture classes",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-9_Unreal-CPP"
+                }
+            },
+            {
+                "id":8,
+                "name": "Encapsulation",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "C++, GDI, SDL",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/Encapsulation/Encapsulation_1.png",
+                    "/Images/Projects/Encapsulation/Encapsulation_video_1.mp4",
+                    "/Images/Projects/Encapsulation/Encapsulation_video_2.mp4"
+                ],
+                "description" : "Ce projet avait pour but de créer une librairie static avec laquelle on pourrait créer des élements graphiques et les manipuler. Nous devions donc utiliser SFML et GDI pour l'affichage, et pouvoir intervertir les deux librairies avec des directives préprocesseur. Il fallait ensuite utiliser notre librairie dans une application pour afficher des balles qui rebondissent. On pouvait ensuite voir qu'avec SFML, il y avait plus de balles car SFML faisait ses calculs sur le GPU à la différence de GDI.",
+                "skills":"Architecture de classes C++, C++, Création librairie",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-2_CPP-Encapsulation"
+                }
+            },
+            {
+                "id":9,
+                "name": "Steganographie",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "C++, GDI",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/Stegano/Stegano_1.png",
+                    "/Images/Projects/Stegano/Stegano_2.mp4",
+                    "/Images/Projects/Stegano/Stegano_3.mp4"
+                ],
+                "description" : "Dans ce projet, nous devions cacher un message dans une image BMP. Nous avons pour cela décortiqué l'image et grâce aux opérateurs binaires, nous avons caché des caractères dans des pixels. On peut voir dans les vidéo une image dans laquelle on cache un message et la même image que l'on décrypte pour retrouver le message mis précedemment.",
+                "skills":"Windows GDI, C++, manipulation binaire",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-1_CPP-Programmation"
+                }
+            },
+            {
+                "id":10,
+                "name": "IA & State Machine",
+                "date": "2024",
+                "time": "2 semaines",
+                "language": "C++, SFML",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/IA/IA_1.png",
+                    "/Images/Projects/IA/IA_2.png",
+                    "/Images/Projects/IA/IA_video.mp4"
+                ],
+                "description" : "Le coeur de ce projet fut de créer des intelligences artificielles capables de jouer au rugby entre elles. Ce projet ayant pour but de nous initier aux states machines, j'ai donc crée une state machine centralisée dans laquelle on va envoyer chaque référence des entités concernées. Ensuite, grâce à un systeme d'état, de conditions et transitions, chaque entité pouvait ainsi changer d'état en fonction du déroulé du jeu et de son environnement.",
+                "skills":"C++, Algorithmie, State Machine",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-3_AI-State-Machine"
+                }
             }
+        ],
+        "anglais":
+        [
+            {
+                "id": 1,
+                "name": "Uneven",
+                "date": "2024",
+                "time": "4 months",
+                "language": "Unity, C#",
+                "equipe": 6,
+                "images": [
+                    "/Images/Projects/Uneven/Uneven_video.mp4",
+                    "/Images/Projects/Uneven/Uneven_Labo.png",
+                    "/Images/Projects/Uneven/Uneven_1.jpg"
+                ],
+                "description": "As part of a summer internship project under our school's supervision, I joined a development team to create a game: Uneven. It is a solo adventure game in isometric 3D. It was a first for the entire team to develop such an ambitious Unity project. It was an excellent way to get used to the 3D engine and C#.",
+                "skills": "Unity & C#, project management, game design & level design, mechanics creation, UI",
+                "links": {
+                    "github": "https://github.com/UVictoras/Uneven",
+                    "steam": "https://store.steampowered.com/app/3260570/Uneven/"
+                }
+            },
+            {
+                "id": 2,
+                "name": "Graphics Engine Creation",
+                "date": "2024",
+                "time": "1 month",
+                "language": "C++, DirectX 12",
+                "equipe": 5,
+                "images": [
+                    "/Images/Projects/DX12_engine/DX12_engine_video.mp4",
+                    "/Images/Projects/DX12_engine/DX12_engine_1.png",
+                    "/Images/Projects/DX12_engine/DX12_engine_2.png"
+                ],
+                "description": "The goal of this project was to create the basics of a functional graphics engine in one month. We used DirectX 12 to develop a first-person space shooter.\nIn detail, we separated the engine part from the application part, with the latter using our engine's functionalities to create enemies and projectiles.\nWe had to think carefully about our architecture to make it as close as possible to a classic graphics engine.",
+                "skills": "C++ development, DirectX 12 development, fundamental graphics engine concepts",
+                "links": {
+                    "github": "https://github.com/Jfabregoule/Direct-X12-GameEngine"
+                }
+            },
+            {
+                "id": 3,
+                "name": "Unity 3D",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "Unity, C#",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/Unity3D/Unity3D_video.mp4",
+                    "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
+                    "/Images/Projects/Unity3D/Unity3D_2.png"
+                ],
+                "description": "The goal of this project was to train ourselves in Unity by creating a basic FPS. We designed a generic weapon system used by both the player and the enemies.\nI created the entire game map using ProBuilder and free assets. Through multiple iterative tests, I was able to refine my level design skills.\nThis project was perfect for deepening my knowledge of C# and Unity.",
+                "skills": "Unity & C#, level design, character controller, weapon and combat system",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-4_Unity-3D"
+                }
+            },
+            {
+                "id": 4,
+                "name": "Unity UI",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "Unity, C#",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/UnityUI/UnityUI_video.mp4",
+                    "/Images/Projects/UnityUI/UnityUI_1.png",
+                    "/Images/Projects/UnityUI/UnityUI_2.png"
+                ],
+                "description": "For this project, we aimed to create an idle and incremental game. Since the theme was UI, we decided to play with it and create a UI factory. Progressing through the game allowed us to improve the UI of the game itself.\nI started by designing the UI in Figma before importing it into Unity. We learned a lot about the good and bad UI practices in Unity.",
+                "skills": "UI design & functional UI, Unity & C#, Figma",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-7_Unity-UI"
+                }
+            },
+            {
+                "id": 5,
+                "name": "Unity Shader/VFX",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "Unity, C#, Shader Graph & Visual Effect Graph",
+                "equipe": 3,
+                "images": [
+                    "/Images/Projects/Unity_shader/Unity_shader_video.mp4",
+                    "/Images/Projects/Unity_shader/Unity_shader_1.png",
+                    "/Images/Projects/Unity_shader/Unity_shader_2.mp4"
+                ],
+                "description": "To start this project, I took inspiration from League of Legends spells and tried to replicate them. I chose two spells from Veigar, analyzed them frame by frame to break down the special effect elements, and... here is the result!\nThanks to this project, I am now able to enhance my creations with particles and shaders.",
+                "skills": "Shader Graph, Visual Effect Graph, Particle System, Unity & C#",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-5_Unity-Shader"
+                }
+            },{
+                "id": 6,
+                "name": "Unreal Engine Blueprint",
+                "date": "2025",
+                "time": "2 weeks",
+                "language": "Unreal Engine, Blueprint",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/UE_blueprint/UE_blueprint_video.mp4",
+                    "/Images/Projects/UE_blueprint/UE_blueprint_1.png",
+                    "/Images/Projects/UE_blueprint/UE_blueprint_2.png"
+                ],
+                "description": "This was my first project using Unreal Engine with Blueprints. The goal was to create a puzzle game with very simple mechanics, mainly activation-based interactions such as buttons, pressure plates, and doors opening. This allowed us to understand and implement inheritance and interfaces. It was a great introduction to Unreal development!",
+                "skills": "Unreal Engine, Blueprint, Level design",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-8_Unreal-Blueprint"
+                }
+            },
+            {
+                "id": 7,
+                "name": "Unreal Engine C++",
+                "date": "2025",
+                "time": "3 weeks",
+                "language": "Unreal Engine, C++",
+                "equipe": 3,
+                "images": [
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_video.mp4",
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_1.png",
+                    "/Images/Projects/Unreal_cpp/Unreal_cpp_2.png"
+                ],
+                "description": "This was my second project using Unreal Engine, this time with C++. It was quite challenging at first, but I now have the skills to create a simple game in Unreal with C++! In this project, I deepened my understanding of inheritance and interfaces. It also improved my developer mindset, as I had to carefully design my class architecture, allowing me to create clean and modular code.",
+                "skills": "Unreal Engine, C++, Level design, Class architecture",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-9_Unreal-CPP"
+                }
+            },
+            {
+                "id": 8,
+                "name": "Encapsulation",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "C++, GDI, SDL",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/Encapsulation/Encapsulation_1.png",
+                    "/Images/Projects/Encapsulation/Encapsulation_video_1.mp4",
+                    "/Images/Projects/Encapsulation/Encapsulation_video_2.mp4"
+                ],
+                "description": "The goal of this project was to create a static library for generating and manipulating graphical elements. We used both SFML and GDI for rendering and implemented preprocessor directives to switch between the two libraries. The library was then used in an application to display bouncing balls. We observed that SFML handled more balls because it utilized the GPU for computations, whereas GDI relied on the CPU.",
+                "skills": "C++ class architecture, C++ programming, Library development",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-2_CPP-Encapsulation"
+                }
+            },
+            {
+                "id": 9,
+                "name": "Steganography",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "C++, GDI",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/Stegano/Stegano_1.png",
+                    "/Images/Projects/Stegano/Stegano_2.mp4",
+                    "/Images/Projects/Stegano/Stegano_3.mp4"
+                ],
+                "description": "In this project, we had to hide a message within a BMP image. We analyzed the image structure and used bitwise operators to embed characters into pixels. The videos demonstrate an image being encoded with a hidden message and then decrypted to reveal the original text.",
+                "skills": "Windows GDI, C++, Binary manipulation",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-1_CPP-Programmation"
+                }
+            },
+            {
+                "id": 10,
+                "name": "AI & State Machine",
+                "date": "2024",
+                "time": "2 weeks",
+                "language": "C++, SFML",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/IA/IA_1.png",
+                    "/Images/Projects/IA/IA_2.png",
+                    "/Images/Projects/IA/IA_video.mp4"
+                ],
+                "description": "The core of this project was to create artificial intelligence capable of playing rugby against itself. The primary objective was to implement a state machine. I designed a centralized state machine where we referenced every entity involved. Using a system of states, conditions, and transitions, each entity could dynamically switch states based on the game's progression and its surroundings.",
+                "skills": "C++, Algorithms, State Machine",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-3_AI-State-Machine"
+                }
+            }
+        ]
+        
+    },
+    "global" :
+    {
+        "francais" : {
+            "mainTitle": "Projets",
+            "date" : "Date",
+            "duration": "Durée",
+            "team": "Equipes",
+            "language": "Langages"
+
         },
-        {
-            "id":2,
-            "name": "Création moteur graphique",
-            "date": "2024",
-            "time": "1 mois",
-            "language": "C++, DirectX 12",
-            "equipe": 5,
-            "images" :
-            [
-                
-                "/Images/Projects/DX12_engine/DX12_engine_video.mp4",
-                "/Images/Projects/DX12_engine/DX12_engine_1.png",
-                "/Images/Projects/DX12_engine/DX12_engine_2.png"
-            ],
-            "description" : "Le but de ce projet était de créer en 1 mois les bases d'un moteur graphique fonctionnel. Nous avons utilisé pour ça directX12 afin de créer un space shooter à la première personne.\n Pour entrer dans les détails, nous avons séparé la partie moteur de la partie application, cette dernière utilisant les fonctionnalités de notre moteur pour créer les ennemies et les projectiles.\n Nous avons dû réfléchir longement à notre architecture pour qu'elle se rapproche au mieux d'un moteur graphique classique",
-            "skills":"Développement C++, développement directX 12, notions fondamentales d'un moteur graphique, ",
-            "links":
-            {
-                "github":"https://github.com/Jfabregoule/Direct-X12-GameEngine"
-            }
-        },
-        {
-            "id":3,
-            "name": "Unity 3D",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "Unity, C#",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/Unity3D/Unity3D_video.mp4",
-                "/Images/Projects/Unity3D/Unity3D_levelDesign.png",
-                "/Images/Projects/Unity3D/Unity3D_2.png"
-            ],
-            "description" : "Ce projet avait pour but de nous former à Unity en créant un FPS basique. Nous avons donc crée un système d'arme générique utilisé par le joueur et les ennemies. \nJ'ai crée l'entièreté de la carte de jeu avec ProBuilder et des assets gratuites, avec plusieurs essais itératifs, j'ai pu peaufiner mes compétences en level design. \nCe projet était parfait pour approfondir mes compétences en C# et Unity.",
-            "skills":"Unity & C#, level design, character controller, système d'arme et de combat",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-4_Unity-3D"
-            }
-        },
-        {
-            "id":4,
-            "name": "Unity UI",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "Unity, C#",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/UnityUI/UnityUI_video.mp4",
-                "/Images/Projects/UnityUI/UnityUI_1.png",
-                "/Images/Projects/UnityUI/UnityUI_2.png"
-            ],
-            "description" : "Lors de ce projet, nous avions pour but de créer un jeu type idle et incrémental. Ce projet étant sur le thème des UI, nous avons décidé d'en jouer et de créer une fabrique de UI. L'avancée dans le jeu nous permettait donc d'améliorer les UI du jeu. J'ai donc commencé par designer les UI sur figma puis à les importer sur Unity. Nous avons beaucoup appris sur les bonnes et mauvaises pratiques des UI sur Unity.",
-            "skills":"UI design & UI fonctionnel, Unity & C#, Figma",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-7_Unity-UI"
-            }
-        },
-        {
-            "id":5,
-            "name": "Unity Shader/VFX",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "Unity, C#, Shader Graph & Visual effect graph",
-            "equipe": 3,
-            "images" :
-            [
-                "/Images/Projects/Unity_shader/Unity_shader_video.mp4",
-                "/Images/Projects/Unity_shader/Unity_shader_1.png",
-                "/Images/Projects/Unity_shader/Unity_shader_2.mp4"
-            ],
-            "description" : "Pour commencer ce projet, j'ai pris en référence des sorts de League of Legends et j'ai essayé de les reproduire. J'ai choisi deux sorts de Veigar, et je les ai analysés image par image pour décortiquer les élements de l'effet spécial et... voici le résultat! Grace à ce projet, je suis maintenant capable d'embellir mes créations avec des particules et des shaders.",
-            "skills":"Shader Graph, Visual effect graph, Particle system, Unity & C#",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-5_Unity-Shader"
-            }
-        },
-        {
-            "id":6,
-            "name": "Unreal Engine Blueprint",
-            "date": "2025",
-            "time": "2 semaines",
-            "language": "Unreal Engine, Blueprint",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/UE_blueprint/UE_blueprint_video.mp4",
-                "/Images/Projects/UE_blueprint/UE_blueprint_1.png",
-                "/Images/Projects/UE_blueprint/UE_blueprint_2.png"
-            ],
-            "description" : "Voici mon premier projet réalisé sur Unreal Engine en blueprint. L'objectif était de créer un jeu puzzle avec des mécaniques très simples. Il y avait majoritairement des mécaniques d'activation par exemple des boutons, des plaques de pression et des portes qui s'ouvrent. Ca nous a permi de comprendre et d'intégrer l'héritage et les interfaces. Ce projet a été une bonne entrée en matière vers le développement sur Unreal!",
-            "skills":"Unreal Engine, Blueprint, Level design",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-8_Unreal-Blueprint"
-            }
-        },
-        {
-            "id":7,
-            "name": "Unreal Engine C++",
-            "date": "2025",
-            "time": "3 semaines",
-            "language": "Unreal Engine, C++",
-            "equipe": 3,
-            "images" :
-            [
-                "/Images/Projects/Unreal_cpp/Unreal_cpp_video.mp4",
-                "/Images/Projects/Unreal_cpp/Unreal_cpp_1.png",
-                "/Images/Projects/Unreal_cpp/Unreal_cpp_2.png"
-            ],
-            "description" : "Ce deuxieme projet réalisé sur Unreal Engine était cette fois-ci en C++. Ce fût assez difficile à prendre en main au début, mais j'ai maintenant les compétences pour créer un jeu simple sur Unreal en C++! J'ai pu dans ce projet approfondir l'héritage et les interfaces, ça a aussi amélioré mon esprit de développeur, j'ai dû réfléchir à l'architecture de mes classes, ce qui m'a permi de créer du code propre et modulable.",
-            "skills":"Unreal Engine, C++, Level design, Architecture classes",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-9_Unreal-CPP"
-            }
-        },
-        {
-            "id":8,
-            "name": "Encapsulation",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "C++, GDI, SDL",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/Encapsulation/Encapsulation_1.png",
-                "/Images/Projects/Encapsulation/Encapsulation_video_1.mp4",
-                "/Images/Projects/Encapsulation/Encapsulation_video_2.mp4"
-            ],
-            "description" : "Ce projet avait pour but de créer une librairie static avec laquelle on pourrait créer des élements graphiques et les manipuler. Nous devions donc utiliser SFML et GDI pour l'affichage, et pouvoir intervertir les deux librairies avec des directives préprocesseur. Il fallait ensuite utiliser notre librairie dans une application pour afficher des balles qui rebondissent. On pouvait ensuite voir qu'avec SFML, il y avait plus de balles car SFML faisait ses calculs sur le GPU à la différence de GDI.",
-            "skills":"Architecture de classes C++, C++, Création librairie",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-2_CPP-Encapsulation"
-            }
-        },
-        {
-            "id":9,
-            "name": "Steganographie",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "C++, GDI",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/Stegano/Stegano_1.png",
-                "/Images/Projects/Stegano/Stegano_2.mp4",
-                "/Images/Projects/Stegano/Stegano_3.mp4"
-            ],
-            "description" : "Dans ce projet, nous devions cacher un message dans une image BMP. Nous avons pour cela décortiqué l'image et grâce aux opérateurs binaires, nous avons caché des caractères dans des pixels. On peut voir dans les vidéo une image dans laquelle on cache un message et la même image que l'on décrypte pour retrouver le message mis précedemment.",
-            "skills":"Windows GDI, C++, manipulation binaire",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-1_CPP-Programmation"
-            }
-        },
-        {
-            "id":10,
-            "name": "IA & State Machine",
-            "date": "2024",
-            "time": "2 semaines",
-            "language": "C++, SFML",
-            "equipe": 2,
-            "images" :
-            [
-                "/Images/Projects/IA/IA_1.png",
-                "/Images/Projects/IA/IA_2.png",
-                "/Images/Projects/IA/IA_video.mp4"
-            ],
-            "description" : "Le coeur de ce projet fut de créer des intelligences artificielles capables de jouer au rugby entre elles. Ce projet ayant pour but de nous initier aux states machines, j'ai donc crée une state machine centralisée dans laquelle on va envoyer chaque référence des entités concernées. Ensuite, grâce à un systeme d'état, de conditions et transitions, chaque entité pouvait ainsi changer d'état en fonction du déroulé du jeu et de son environnement.",
-            "skills":"C++, Algorithmie, State Machine",
-            "links":
-            {
-                "github":"https://github.com/Benjapied/Project-3_AI-State-Machine"
-            }
+        "anglais" : {
+            "mainTitle": "Projects",
+            "date" : "Date",
+            "duration": "Duration",
+            "team": "Team",
+            "language": "Languages"
         }
-    ]
-    
+    }
 
 }

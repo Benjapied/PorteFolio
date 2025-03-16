@@ -8,6 +8,9 @@ import { useEffect, useRef } from 'react';
 import MyModal from './Components/Projects/MyModal.js';
 import ModalManager from './Components/Projects/ModalManager.js';
 import Footer from './Components/Footer.js';
+import { LanguageProvider } from './LanguageContext.js';
+
+
 
 function App() {
 
@@ -27,17 +30,19 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <Navbar/>
-      <Header title="Benjamin Arhancet"/>
-      <Description/>
-      {/* <Parcours/> */}
-      <Projects/>
-      <Footer/>
+    <LanguageProvider>
+      <div className="App">
+        <Navbar/>
+        <Header title="Benjamin Arhancet"/>
+        <Description/>
+        {/* <Parcours/> */}
+        <Projects/>
+        <Footer/>
 
-      <MyModal ref={modalRef}/>
+        <MyModal ref={modalRef}/>
 
-    </div>
+      </div>
+    </LanguageProvider>
   );
 
 }

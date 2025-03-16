@@ -1,0 +1,15 @@
+{
+    "francais" : 
+    {
+        "title" : "Qui suis-je ?",
+        "content" : "Je suis Benjamin Arhancet et j'ai 20 ans. \n Cela fait maintenant plusieurs années que mon objectif est de pouvoir créer mes propres jeux vidéo. \n Ayant beaucoup joué à toutes sortes de jeux depuis mon enfance, je me suis toujours demandé ce qu'il se cachait derrière ces systèmes complexes, ces paysages fabuleux et ces histoires passionnantes. \n C'est pour cela qu'en 2022, j'ai intégré le Gaming Campus: une école d'informatique pour apprendre le développement de jeu vidéo de A à Z. J'ai pendant ce cursus réalisé de nombreux projets qui m'ont permi de devenir chaque jour meilleur dans ce domaine. \n J'ai à présent les compétences pour créer mes propres jeux, et je suis actuellement à la recherche d'une alternance dans un studio. \nSur ce site, vous pourrez observer les différents projets que j'ai réalisés durant mes études, je vous souhaite donc une bonne visite !\n",
+        "resume" : "Mon CV"
+    },
+    "anglais" : 
+    {
+        "title" : "Who am I ?",
+        "content" : "I am Benjamin Arhancet, and I am 20 years old. \n For several years now, my goal has been to create my own video games. \n Having played all kinds of games since childhood, I have always wondered what lies behind these complex systems, stunning landscapes, and captivating stories. \n That's why, in 2022, I joined Gaming Campus, a computer science school where I learned video game development from A to Z. \n Throughout my studies, I have worked on numerous projects, allowing me to improve and refine my skills every day. \n Now, I have the expertise to create my own games, and I am currently looking for an apprenticeship in a game studio. \n On this website, you can explore the various projects I have worked on during my studies. I hope you enjoy your visit!",
+        "resume" : "My resume"
+    
+    }
+}

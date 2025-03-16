@@ -1,10 +1,12 @@
 
 import React, { useState, forwardRef, useImperativeHandle } from "react";
 import fillImage from "../Tools";
+import globalData from "../../Model/Projects.json"
+import { useLanguage } from "../../LanguageContext";
 
-
-const GetDescriptionLineBreak = (description) => {
+export const GetDescriptionLineBreak = (description) => {
 // Préparez le texte formaté avant de retourner le JSX
+
 const formattedDescription = description.split('\n').map((line, index) => (
   <React.Fragment key={index}>
       {line}
@@ -19,6 +21,7 @@ return (
 );
 };
 
+
 const MyModal = forwardRef((props, ref) => {
 const [isModalOpen, setIsModalOpen] = useState(false);
 const [modalContent, setModalContent] = useState(null);
@@ -30,7 +33,7 @@ setModalContent(null);
 
 // Méthodes exposées au parent
 useImperativeHandle(ref, () => ({
-openModal: (data) => {
+openModal: (data, globalParam) => {
   setModalContent(
     <div className="relative w-full h-full md:min-h-5/6 md:min-h-2/3 md:w-2/3 bg-my-blue object-contain rounded-lg shadow dark:bg-gray-700
     grid grid-rows-[auto] gap-4 content-around overflow-y-auto overflow-x-hidden scrollbar-hide">
@@ -68,7 +71,7 @@ openModal: (data) => {
             <div className="flex flex-wrap w-full">
               <div className="flex py-1 pr-2 lg:pr-6">
                 <p className="font-bold">
-                  Date:&nbsp;
+                  {`${globalParam.date}`}:&nbsp;
                 </p>
                 <p>
                   {` ${data.date}`}
@@ -77,7 +80,7 @@ openModal: (data) => {
 
               <div className="flex py-1 pr-2 lg:pr-6">
                 <p className="font-bold">
-                  Durée:&nbsp;
+                {`${globalParam.duration}`}:&nbsp;
                 </p>
                 <p>
                   {` ${data.time}`}
@@ -86,7 +89,7 @@ openModal: (data) => {
 
               <div className="flex py-1 pr-2 lg:pr-6">
                 <p className="font-bold">
-                  Equipes:&nbsp;
+                {`${globalParam.team}`}:&nbsp;
                 </p>
                 <p>
                   {` ${data.equipe} personnes`}
@@ -96,7 +99,7 @@ openModal: (data) => {
             </div>
             <div className="flex pr-1">
               <p className="font-bold">
-                Language:&nbsp;
+              {`${globalParam.language}`}:&nbsp;
               </p>
               <p className="underline">
                 {` ${data.language}`}

@@ -2,6 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useEffect } from 'react'
 import toast, { Toaster } from 'react-hot-toast';
+import { LanguageSwitcher } from '../LanguageSwitcher';
 
 
 export default function Navbar() {
@@ -56,7 +57,9 @@ export default function Navbar() {
         <Disclosure as="nav" className="bg-my-blue sticky trop-0">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> { /* Contient tout panel qui s'affiche en résolution pc */}
             <div className="flex h-16 items-center justify-between">
+              
               <div className="items-center hidden md:flex ml-10 space-x-4"> { /* Contient les éléments de la navbar */}
+                <LanguageSwitcher/>
                 {navigation.map((item) => (
                   <a
                     key={item.name}
