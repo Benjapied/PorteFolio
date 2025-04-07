@@ -106,6 +106,7 @@ export default function Navbar() {
 
           <DisclosurePanel className="md:hidden absolute bg-gray-800 w-full">
             <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+              <LanguageSwitcher/>
               {navigation.map((item) => (
                 <DisclosureButton
                   key={item.name}

@@ -4,6 +4,26 @@
         "francais":
         [
             {
+                "id":0,
+                "name": "Projet Malartre",
+                "date": "2025",
+                "time": "3 mois",
+                "language": "Unity, C#",
+                "equipe": 25,
+                "images" :
+                [
+                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_2.png"
+                ],
+                "description" : "Le musée malartre voulait redynamiser sa campagne de communication, et pour ce faire, il nous a été confié la mission suivante: faire un jeu d'énigme en point and click sur mobile dans le décor du musée. Le joueur incarne un gardien de nuit enquêtant sur un mysterieux intrus. Il va devoir venir à bout de 3 mini-jeux sur le thème de l'automobile: un puzzle en point and click, un sliding puzzle et un power wash. \n Pour ma part je me suis occupé de plusieurs tâches: les UI et systèmes du mini jeu powerWash; de l'intégration d'asset et de la gestion des lumières dans cetaines scènes; de l'intégration complet du sound design dans le jeu; et pour finir divers éléments de gameplay et de systèmes. \n J'ai pu pour la première fois travailler pour un vrai client aux côtés d'une vaste équipe pour un projet bénévole, cela m'a appris beaucoup de chose notamment sur l'architecture d'un projet Unity. \n Je remercie mes collègues et le musée pour cette opportunité et vous pouvez retrouver le jeu sur GooglePlay et l'AppStore dès le 16 avril 2025 !",
+                "skills":"Unity & C#, game design, création de mécaniques, UI, environnement",
+                "links":
+                {
+                    "github":"https://github.com/FearfulB/Projet-Malartre"
+                }
+            },
+            {
                 "id":1,
                 "name": "Uneven",
                 "date": "2024",
@@ -146,6 +166,26 @@
                 }
             },
             {
+                "id":11,
+                "name": "Unreal Physique Avancée",
+                "date": "2025",
+                "time": "2 semaines",
+                "language": "C++, Unreal",
+                "equipe": 2,
+                "images" :
+                [
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_video.mp4",
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_1.png",
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_2.png"
+                ],
+                "description" : "Lors de ce nouveau projet sur Unreal Engine, nous avions pour objectif d'apprendre des notions avancées sur la physique du moteur. Pour ce faire, nous devions créer un jeu similaire à Angry Bird en 3D. \n J'ai pu apprendre diverses compétences: les géométries collections, la création d'une class projectile base pour créer n'importe quel oiseau, les contraintes physique et le component rope pour faire des pendules et customiser un predictProjectilePath pour créer un système de visée comme dans Angry Bird. \n Ce projet a été pour moi important, il m'a apporté un bagage technique qui me sera sans aucun doûte utile en entreprise !",
+                "skills":"C++, Unreal Engine, Geometry Collection, Physic Material, Physique d'unreal",
+                "links":
+                {
+                    "github":"https://github.com/Benjapied/Project-3_AI-State-Machine"
+                }
+            },
+            {
                 "id":8,
                 "name": "Encapsulation",
                 "date": "2024",
@@ -208,6 +248,24 @@
         ],
         "anglais":
         [
+            {
+                "id": 0,
+                "name": "Malartre Project",
+                "date": "2025",
+                "time": "3 months",
+                "language": "Unity, C#",
+                "equipe": 25,
+                "images": [
+                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_2.png"
+                ],
+                "description": "The Malartre museum wanted to revitalize its communication campaign, and to do so, we were given the following mission: to create a point-and-click puzzle game for mobile, set in the museum's environment. The player takes on the role of a night guard investigating a mysterious intruder. They must complete 3 mini-games themed around automobiles: a point-and-click puzzle, a sliding puzzle, and a power wash game. \n Personally, I was responsible for several tasks: the UI and systems for the power wash mini-game; asset integration and lighting setup in certain scenes; full integration of the game's sound design; and various gameplay elements and systems. \n This was my first time working for a real client alongside a large team on a volunteer project, and I learned a lot, especially about Unity project architecture. \n I thank my teammates and the museum for this opportunity, and you can find the game on Google Play and the App Store starting April 16, 2025!",
+                "skills": "Unity & C#, game design, mechanic creation, UI, environment",
+                "links": {
+                    "github": "https://github.com/FearfulB/Projet-Malartre"
+                }
+            },
             {
                 "id": 1,
                 "name": "Uneven",
@@ -335,6 +393,24 @@
                 }
             },
             {
+                "id": 11,
+                "name": "Advanced Physics in Unreal",
+                "date": "2025",
+                "time": "2 weeks",
+                "language": "C++, Unreal",
+                "equipe": 2,
+                "images": [
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_video.mp4",
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_1.png",
+                    "/Images/Projects/UnrealPhysics/UnrealPhysics_2.png"
+                ],
+                "description": "For this new project in Unreal Engine, our objective was to learn advanced concepts related to the engine's physics system. To do so, we had to create a 3D game similar to Angry Birds. \n I was able to learn a variety of skills: geometry collections, creating a base projectile class to represent any type of bird, physical constraints, and the rope component to create pendulums, as well as customizing the predictProjectilePath to implement a targeting system like in Angry Birds. \n This project was important to me, as it gave me a solid technical foundation that will definitely be useful in a professional setting!",
+                "skills": "C++, Unreal Engine, Geometry Collection, Physic Material, Unreal Physics",
+                "links": {
+                    "github": "https://github.com/Benjapied/Project-3_AI-State-Machine"
+                }
+            },
+            {
                 "id": 8,
                 "name": "Encapsulation",
                 "date": "2024",
@@ -395,6 +471,7 @@
     {
         "francais" : {
             "mainTitle": "Projets",
+            "skills": "Compétences",
             "date" : "Date",
             "duration": "Durée",
             "team": "Equipes",
@@ -403,6 +480,7 @@
         },
         "anglais" : {
             "mainTitle": "Projects",
+            "skills": "Skills",
             "date" : "Date",
             "duration": "Duration",
             "team": "Team",

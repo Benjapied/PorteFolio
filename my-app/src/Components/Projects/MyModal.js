@@ -15,7 +15,7 @@ const formattedDescription = description.split('\n').map((line, index) => (
 ));
 
 return (
-  <p className="py-1">
+  <p className="p-3">
       {formattedDescription}
   </p>
 );
@@ -68,8 +68,8 @@ openModal: (data, globalParam) => {
         {/* Modal body */}
         <div className="grid grid-rows-[auto] lg:grid-cols-2 lg:grid-rows-2 gap-4 p-4 space-y-4 lg:flex-row lg:justify-between row-span-6 inline max-w-full">
           <div className="flex flex-col text-stone-200 mx-3 pl-3">
-            <div className="flex flex-wrap w-full">
-              <div className="flex py-1 pr-2 lg:pr-6">
+            <div className="flex flex-wrap w-full bg-gray-900 pl-2 py-2">
+              <div className="flex pr-2 lg:pr-6">
                 <p className="font-bold">
                   {`${globalParam.date}`}:&nbsp;
                 </p>
@@ -78,7 +78,7 @@ openModal: (data, globalParam) => {
                 </p>
               </div>
 
-              <div className="flex py-1 pr-2 lg:pr-6">
+              <div className="flex pr-2 lg:pr-6">
                 <p className="font-bold">
                 {`${globalParam.duration}`}:&nbsp;
                 </p>
@@ -87,7 +87,7 @@ openModal: (data, globalParam) => {
                 </p>
               </div>
 
-              <div className="flex py-1 pr-2 lg:pr-6">
+              <div className="flex pr-2 lg:pr-6">
                 <p className="font-bold">
                 {`${globalParam.team}`}:&nbsp;
                 </p>
@@ -97,17 +97,26 @@ openModal: (data, globalParam) => {
               </div>
 
             </div>
-            <div className="flex pr-1">
+            <div className="flex pr-1 pb-2 bg-gray-900 pl-2">
               <p className="font-bold">
               {`${globalParam.language}`}:&nbsp;
               </p>
               <p className="underline">
                 {` ${data.language}`}
               </p>
-            </div>  
+            </div> 
 
             {GetDescriptionLineBreak(data.description)}
-            
+
+            <div className="flex pr-1 py-1 bg-gray-900">
+              <p className="font-bold pl-2">
+              {`${globalParam.skills}`}:&nbsp;
+              </p>
+              <p className="">
+                {` ${data.skills}`}
+              </p>
+            </div> 
+
           </div>
 
           {Object.entries(data.images).map(([key, img]) => {
