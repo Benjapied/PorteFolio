@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PorteFolio/static/css/main.c269d710.css",
-    "main.js": "/PorteFolio/static/js/main.57b6091d.js",
+    "main.css": "/PorteFolio/static/css/main.c9bde5e9.css",
+    "main.js": "/PorteFolio/static/js/main.6d7e3a0d.js",
     "static/media/BannerBackground.png": "/PorteFolio/static/media/BannerBackground.eaa92eb8e021585807a8.png",
-    "static/media/icomoon.svg": "/PorteFolio/static/media/icomoon.1a187bc0fffa3d58c43e.svg",
+    "static/media/icomoon.svg": "/PorteFolio/static/media/icomoon.81b7b6fdd12ae8a0bbaa.svg",
     "static/media/icomoon.eot": "/PorteFolio/static/media/icomoon.25958822726392ff9f18.eot",
     "static/media/icomoon.woff": "/PorteFolio/static/media/icomoon.6e32152c6af4b5f4b742.woff",
     "static/media/icomoon.ttf": "/PorteFolio/static/media/icomoon.f33101af4d1e75b07346.ttf",
     "index.html": "/PorteFolio/index.html",
-    "main.c269d710.css.map": "/PorteFolio/static/css/main.c269d710.css.map",
-    "main.57b6091d.js.map": "/PorteFolio/static/js/main.57b6091d.js.map"
+    "main.c9bde5e9.css.map": "/PorteFolio/static/css/main.c9bde5e9.css.map",
+    "main.6d7e3a0d.js.map": "/PorteFolio/static/js/main.6d7e3a0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c269d710.css",
-    "static/js/main.57b6091d.js"
+    "static/css/main.c9bde5e9.css",
+    "static/js/main.6d7e3a0d.js"
   ]
 }
