@@ -4,6 +4,28 @@
         "francais":
         [
             {
+                "id":11,
+                "name": "Riwa",
+                "date": "2025",
+                "time": "1 mois",
+                "language": "Unity, C#",
+                "equipe": 27,
+                "images" :
+                [
+                    "/Images/Projects/Riwa/Riwa_video_1.mp4",
+                    "/Images/Projects/Riwa/Riwa_2.jpg",
+                    "/Images/Projects/Riwa/Riwa_1.jpg",
+                    "/Images/Projects/Riwa/Riwa_video_2.mp4",
+                    "/Images/Projects/Riwa/Riwa_video_3.mp4"
+                ],
+                "description" : "Ce projet de fin de bachelor fut le projet le plus fou et ambitieux que j'ai pu faire depuis le début de mon parcours d'étudiant. \n Pour faire court, Riwa est un jeu mobile 3D à la troisième personne dans lequel le joueur incarne Sensa, une jeune esprit de la forêt qui part explorer la tour de Riwa pour y percer ses secrets. \n L'atout principal du jeu est que Sensa peut retourner dans le passé, à l'époque où la tour n'était pas en ruine.\n\n J'ai eu la chance de pouvoir collaborer avec 27 personnes dont 7 développeurs, 8 artistes, 7 commerciaux, 2 talents vidéos et 3 sound designers. \n Ce mois fut intense et riche en partage et en apprentissage, je me suis occupé majoritairement des 3C: j'ai conçu la state machine du joueur ansi que ses mécaniques de jeu (déplacer et tourner une caisse, intéragir, se transformer en fantome...) et je devais synchroniser tout ça avec l'animator controller du personnage. \n J'ai aussi pu acquérir des compétences en debug et sur la lecture du code d'autrui. \n Pour finir, j'ai pu apprendre plus profondément le game design, avec l'accompagnement de professionels, nous avons pu faire des choix pour que le joueur soit apte à finir le jeu sans difficulté et frustration. \n\n Cette expérience folle nous a valu le prix du meilleur pôle développeur de l'école ainsi que de beaux souvenirs ! ",
+                "skills":"Unity & C#, Game design, création de mécaniques, Level design, State machine avancée, Animator controller",
+                "links":
+                {
+                    "github":"https://github.com/Jfabregoule/Riwa"
+                }
+            },
+            {
                 "id":0,
                 "name": "Projet Malartre",
                 "date": "2025",
@@ -12,7 +34,7 @@
                 "equipe": 25,
                 "images" :
                 [
-                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_video_1.png",
                     "/Images/Projects/Malartre/Malartre_1.png",
                     "/Images/Projects/Malartre/Malartre_2.png"
                 ],
@@ -249,6 +271,27 @@
         "anglais":
         [
             {
+                "id": 11,
+                "name": "Riwa",
+                "date": "2025",
+                "time": "1 month",
+                "language": "Unity, C#",
+                "equipe": 27,
+                "images": [
+                    "/Images/Projects/Riwa/Riwa_video_1.mp4",
+                    "/Images/Projects/Riwa/Riwa_2.jpg",
+                    "/Images/Projects/Riwa/Riwa_1.jpg",
+                    "/Images/Projects/Riwa/Riwa_video_2.mp4",
+                    "/Images/Projects/Riwa/Riwa_video_3.mp4"
+                ],
+                "description": "This bachelor's final project was the most ambitious and exciting one I’ve had the chance to work on since the beginning of my studies.\nIn short, Riwa is a 3D third-person mobile game in which the player embodies Sensa, a young forest spirit exploring the Tower of Riwa to uncover its secrets.\nThe main feature of the game is that Sensa can travel back in time, to an era when the tower wasn’t yet in ruins.\n\nI had the opportunity to collaborate with 27 people, including 7 developers, 8 artists, 7 business students, 2 video talents, and 3 sound designers.\nThis month was intense and full of sharing and learning. I was mainly in charge of the 3Cs: I designed the player's state machine and their core mechanics (moving and rotating crates, interacting, transforming into a ghost, etc.), and I synchronized all of this with the character's animator controller.\nI also strengthened my debugging skills and learned how to read and work with other people's code.\nFinally, I deepened my knowledge of game design. With support from professionals, we made thoughtful choices to ensure that players could complete the game without frustration or confusion.\n\nThis crazy experience earned us the award for Best Developer Team in the school, along with many great memories!",
+                "skills": "Unity & C#, Game design, mechanics creation, Level design, advanced state machine, Animator controller",
+                "links":
+                {
+                    "github":"https://github.com/Jfabregoule/Riwa"
+                }
+            },
+            {
                 "id": 0,
                 "name": "Malartre Project",
                 "date": "2025",
@@ -256,7 +299,7 @@
                 "language": "Unity, C#",
                 "equipe": 25,
                 "images": [
-                    "/Images/Projects/Malartre/Malartre_1.png",
+                    "/Images/Projects/Malartre/Malartre_video_1.png",
                     "/Images/Projects/Malartre/Malartre_1.png",
                     "/Images/Projects/Malartre/Malartre_2.png"
                 ],

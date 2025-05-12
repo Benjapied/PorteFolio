@@ -1,8 +1,17 @@
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import 'flowbite';
+
+window.addEventListener('error', (e) => {
+  if (e.message.includes('ResizeObserver loop completed')) {
+    e.stopImmediatePropagation();
+  }
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
